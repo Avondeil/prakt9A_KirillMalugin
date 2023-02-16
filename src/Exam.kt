@@ -4,7 +4,7 @@ class Exam  constructor(var name:String, var item:String, var date:String, var r
     var b: Boolean = true;
     fun Vodim() {
         print("Введите имя студента: ")
-        name = readLine()!!.toString()
+          name = readLine()!!.toString()
         print("Введите предмет по которому сдавался экзамен: ")
         item = readLine()!!.toString()
         print("Введите дату экзамена: ")
